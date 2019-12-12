@@ -4,7 +4,7 @@ spring:
     username: root
     password: 123456
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:p6spy://127.0.0.1:3306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false&serverTimezone=UTC
+    url: jdbc:p6spy://127.0.0.1:3306/mp-study?characterEncoding=UTF-8&useUnicode=true&useSSL=false&serverTimezone=UTC
 mybatis-plus:
   type-aliases-package: com.rongflag.mpstudy.entity
   mapper-locations: classpath:/mapper/*/*Mapper.xml
